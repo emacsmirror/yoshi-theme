@@ -240,3 +240,16 @@
         }
     }
 }
+
+.contributor {
+    padding: 0 15px;
+    text-align: center;
+    display: inline-block;
+
+    img {
+        width: 96px;
+        height: 96px;
+        border-radius: 100%;
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+<div class="contributors">
+  {% for contributor in site.github.contributors %}
+  <a href="{{ contributor.html_url }}">
+    <div class="contributor">
+      <img src="{{ contributor.avatar_url }}"
+           alt="{{ contributor.login }}" />
+      {{ contributor.login }}
+    </div></a>
+  {% endfor %}
+</div>

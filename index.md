@@ -48,3 +48,6 @@ only have been themed partially and this list may not be complete.
 
 {% include releases.html %}
 
+## Contributors
+
+{% include contributors.html %}
