@@ -1,0 +1,95 @@
+a {
+    text-decoration: none;
+    color: #a88654;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.2;
+}
+
+code {
+    white-space: nowrap;
+}
+
+h2 a {
+    font-size: 1.1em;
+}
+
+.ADDED {
+    background-color: #65a854;
+    color: #000;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #92c286 20%,
+                                      #65a854 110%);
+}
+
+.CHANGED {
+    background-color: #a88654;
+    color: #000;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #c2aa86 20%,
+                                      #a88654 110%);
+}
+
+.DEPRECATED {
+    background-color: #969696;
+    color: #000;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #bcbcbc 20%,
+                                      #969696 110%);
+}
+
+.REMOVED {
+    background-color: #a85454;
+    color: #fff;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #c28686 20%,
+                                      #a85454 110%);
+}
+
+.FIXED {
+    background-color: #8d995c;
+    color: #000;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #aeb889 20%,
+                                      #8d995c 110%);
+}
+
+.SECURITY {
+    background-color: #54a8a8;
+    color: #000;
+    background-image: radial-gradient(ellipse farthest-corner at 50%,
+                                      #86c2c2 20%,
+                                      #54a8a8 110%);
+}
+
+.org-ul {
+    list-style: none;
+    display: inline-block;
+    margin-top: 0;
+    padding-left: 15px;
+}
+
+.org-ul li {
+    position: relative;
+    margin-left: 95px;
+    margin-bottom: 8px;
+}
+
+.todo, .done {
+    position: absolute;
+    right: 100%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#content, #org-div-home-and-up {
+    width: 700px;
+    margin: 0 auto;
+}
