@@ -1,7 +1,7 @@
 {% for release in site.github.releases %}
 {% unless release.draft %}
 <h3>
-  <a href="{{ site.baseurl }}/CHANGELOG.html#release-{{ release.tag_name | slugify }}">
+  <a href="{{ site.baseurl }}/CHANGELOG.html#release-{{ release.tag_name }}">
     {{ release.name }}
     {% if release.prerelease %}
       (Prerelease)
