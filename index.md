@@ -43,3 +43,8 @@ only have been themed partially and this list may not be complete.
 - Term mode
 - Texinfo mode
 - Whitespace mode
+
+## Releases
+
+{% include releases.html %}
+

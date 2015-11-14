@@ -1,0 +1,17 @@
+{% for release in site.github.releases %}
+{% unless release.draft %}
+<h3>
+  <a href="{{ site.baseurl }}/CHANGELOG.html#release-{{ release.tag_name | slugify }}">
+    {{ release.name }}
+    {% if release.prerelease %}
+      (Prerelease)
+    {% endif %}
+  </a>
+</h3>
+
+<ul>
+  <li><a href="{{ release.tarball_url }}">Download .tar.gz</a></li>
+  <li><a href="{{ release.zipball_url }}">Download .zip</a></li>
+</ul>
+{% endunless %}
+{% endfor %}
